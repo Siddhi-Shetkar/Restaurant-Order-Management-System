@@ -7,7 +7,7 @@ import api from '../utils/api';
 
 const ImageWithFallback = ({ src, alt }) => {
   const [imgSrc, setImgSrc] = useState(src);
-  const fallbackImg = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=150&q=80';
+  const fallbackImg = '/images/placeholder.png';
   return (
     <img 
       src={imgSrc || fallbackImg} 

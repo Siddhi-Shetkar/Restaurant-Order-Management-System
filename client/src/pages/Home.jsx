@@ -6,7 +6,7 @@ import { ChevronRight, Star, Clock, Zap, ShieldCheck, Smartphone, UtensilsCrosse
 
 const ImageWithFallback = ({ src, alt, className, style }) => {
   const [imgSrc, setImgSrc] = useState(src);
-  const fallbackImg = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80';
+  const fallbackImg = '/images/placeholder.png';
   return (
     <img 
       src={imgSrc || fallbackImg} 
@@ -38,14 +38,14 @@ const Home = () => {
   }, []);
 
   const quickCategories = [
-    { name: 'Breakfast', img: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=500&q=80' },
-    { name: 'Starters', img: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500&q=80' },
-    { name: 'North Indian', img: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&q=80' },
-    { name: 'Biryani', img: 'https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=500&q=80' },
-    { name: 'Chinese', img: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=500&q=80' },
-    { name: 'Burgers', img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=80' },
-    { name: 'Desserts', img: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&q=80' },
-    { name: 'Beverages', img: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=80' }
+    { name: 'Breakfast', img: '/images/idli-sambar.jpg' },
+    { name: 'Starters', img: '/images/paneer-tikka.jpg' },
+    { name: 'North Indian', img: '/images/butter-chicken.jpg' },
+    { name: 'Biryani', img: '/images/hyderabadi-chicken-biryani.jpg' },
+    { name: 'Chinese', img: '/images/hakka-noodles.jpg' },
+    { name: 'Burgers', img: '/images/class-chicken-burger.jpg' },
+    { name: 'Desserts', img: '/images/gulab-jamun.jpg' },
+    { name: 'Beverages', img: '/images/mango-lassi.jpg' }
   ];
 
   return (
@@ -75,7 +75,7 @@ const Home = () => {
           <div style={{ position: 'relative', display: 'flex', justifyContent: 'center' }} className="animate-fade-in hide-mobile">
             <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '120%', height: '120%', background: 'radial-gradient(circle, rgba(255,107,0,0.15) 0%, transparent 70%)', zIndex: -1 }}></div>
             <img 
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop" 
+              src="/images/hyderabadi-chicken-biryani.jpg" 
               alt="Delicious Food" 
               style={{ width: '100%', maxWidth: '500px', height: 'auto', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-lg)', border: '1px solid var(--border)' }}
             />

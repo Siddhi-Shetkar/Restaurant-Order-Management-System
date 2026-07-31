@@ -438,9 +438,6 @@ button {
   color: white;
 }
 
-.tracker-step.completed ~ .tracker-step::before {
-    /* To color the line we'd need more complex logic, left simple for now */
-}
 
 /* Dashboard */
 .dashboard-stats {

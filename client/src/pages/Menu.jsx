@@ -6,7 +6,7 @@ import { Search, Plus, Star, Clock, Heart } from 'lucide-react';
 
 const ImageWithFallback = ({ src, alt, className }) => {
   const [imgSrc, setImgSrc] = useState(src);
-  const fallbackImg = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80';
+  const fallbackImg = '/images/placeholder.png';
   return (
     <img 
       src={imgSrc || fallbackImg} 
