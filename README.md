@@ -974,3 +974,5 @@ This project is intended for educational and portfolio purposes.
 **Restaurant Management System**
 
 Built using the MERN Stack with a production-oriented architecture emphasizing scalability, maintainability, responsive design, and real-world restaurant workflow management.
+## Contributor
+- Updated README by Sahasthra.
