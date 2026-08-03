@@ -4,6 +4,16 @@ A production-style **Restaurant Management System** built using the **MERN Stack
 
 ---
 
+# 👥 Contributors
+
+| Contributor | Role | Responsibilities |
+|---|---|---|
+| **Siddhi Shetkar** | **Team Lead & Backend Developer** | Backend architecture, REST APIs, authentication, authorization, business logic, order workflow, server-side validation, and overall project coordination |
+| **Sahasthra** | **Frontend Developer** | User interface development, responsive design, customer-facing pages, dashboards, navigation, and frontend integration |
+| **Aaraadhyaa Vanama Reddy** | **Database Developer** | Database design, MongoDB schema development, data modeling, database integration, and data management |
+
+---
+
 # 📌 Project Overview
 
 The Restaurant Management System streamlines restaurant operations by allowing customers to place dine-in or takeaway orders while enabling kitchen staff and managers to efficiently process, monitor, and analyze restaurant activities.
@@ -960,19 +970,3 @@ No Docker, Redis, Kubernetes, Firebase, or Supabase are required.
 - Verify `VITE_API_URL`.
 - Ensure backend server is running.
 - Confirm API routes are correctly configured.
-
----
-
-# 📜 License
-
-This project is intended for educational and portfolio purposes.
-
----
-
-# 👨‍💻 Author
-
-**Restaurant Management System**
-
-Built using the MERN Stack with a production-oriented architecture emphasizing scalability, maintainability, responsive design, and real-world restaurant workflow management.
-## Contributor
-- Updated README by Sahasthra
