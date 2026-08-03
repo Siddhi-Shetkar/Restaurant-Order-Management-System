@@ -10,7 +10,7 @@ A production-style **Restaurant Management System** built using the **MERN Stack
 |---|---|---|
 | **Siddhi Shetkar** | **Team Lead & Backend Developer** | Backend architecture, REST APIs, authentication, authorization, business logic, order workflow, server-side validation, and overall project coordination |
 | **Sahasthra** | **Frontend Developer** | User interface development, responsive design, customer-facing pages, dashboards, navigation, and frontend integration |
-| **Aaraadhyaa Vanama Reddy** | **Database Developer** | Database design, MongoDB schema development, data modeling, database integration, and data management |
+| **Aaraadhyaa Reddy Vanama** | **Database Developer** | Database design, MongoDB schema development, data modeling, database integration, and data management |
 
 ---
 
